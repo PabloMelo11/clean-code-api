@@ -9,7 +9,7 @@ const serverError = (error: Error): HttpResponse => ({
 });
 
 const ok = (data: any): HttpResponse => ({
-  statusCode: 500,
+  statusCode: 200,
   data,
 });
 
